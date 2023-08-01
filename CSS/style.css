@@ -172,3 +172,61 @@
 }
 
 /* About Section End */
+
+/* Service Section Start */
+.service{
+    background: #E8E3D2;
+    padding: 50px;
+    text-align: center;
+}
+.service p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.service p img{
+    width: 20px;
+    margin-right: 5px;
+}
+.right-order{
+    transform: rotate(180deg);
+    margin-left: 5px;
+}
+.service h1{
+    font-weight: 800;
+    font-size: 36px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1.5rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.card{
+    padding: 5px;
+}
+.card img{
+    width: 30px;
+}
+.card img.arrow-img{
+    width: 25px;
+}
+.card h6{
+    font-weight: 800;
+    font-size: 16px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 15px 0;
+}
+.card p{
+    font-size: 9px;
+    color: black;
+    font-weight: 300;
+}
+/* Service Section End */
