@@ -230,3 +230,47 @@
     font-weight: 300;
 }
 /* Service Section End */
+
+/* Features Section Start */
+.features{
+    background: #343434;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    margin-top: 5px;
+}
+.feature{
+    display: flex;
+    border-right: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.last-feature{
+    border: none;
+    padding: 3px;
+}
+.feature img{
+    width: 25px;
+    height: 25px;
+}
+.feature img.down-arrow{
+    width: 15px;
+    height: 15px;
+}
+.feature .feature-text{
+    margin: 0 5px;
+    padding: 5px;
+}
+.feature .feature-text h6{
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.feature .feature-text p{
+    font-size: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: white;
+}
+/* Features Section End */
