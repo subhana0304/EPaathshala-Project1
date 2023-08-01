@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Nunito:wght@200;300;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Cormorant Garamond', serif; */
+
+/* Header Start */
+.header{
+    background: #E8E3D2;
+    padding: 20px 50px 0 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.menu-text ul{
+    list-style: none;
+    display: flex;
+}
+.menu-text ul li{
+    font-size: 11px;
+    margin: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.menu-text ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+/* --------------------------- */
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+.left-banner{
+    text-align: left;
+}
+.left-banner p{
+    font-size: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+}
+.left-banner p img{
+    width: 20px;
+    margin-right: 5px;
+}
+.left-banner h1{
+    font-weight: 800;
+    font-size: 42px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1.5rem;
+}
+.left-banner a{
+    text-decoration: none;
+}
+.left-banner a.btn{
+    background-color: white;
+    color: black;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.left-banner a.bg-dark{
+    background-color: #471B0E;
+    color: white;
+    margin-right: 10px;
+}
+
+.right-banner{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+.banner-img{
+    width: 250px;
+    height: 300px;
+    margin-left: 25px;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Header End */
