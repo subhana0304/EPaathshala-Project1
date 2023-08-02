@@ -274,3 +274,13 @@
     color: white;
 }
 /* Features Section End */
+
+/* Image Section Start */
+
+.image-section{
+    margin: 50px;
+}
+.image-section img{
+    width: 100%;
+}
+/* Image Section End */
