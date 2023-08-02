@@ -88,11 +88,11 @@
 
 .left-banner a.btn {
     background-color: white;
-    color: black;
+    color: #471B0E;
     padding: 6px 12px;
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .left-banner a.bg-dark {
@@ -410,3 +410,48 @@
 }
 
 /* Testimony End */
+
+/* Appointment Start */
+
+.appointment{
+    background-color: #471B0E;
+    padding: 30px;
+    text-align: center;
+}
+.appointment h3{
+    font-weight: 800;
+    font-size: 22px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1rem;
+}
+.appointment a {
+    text-decoration: none;
+}
+
+.appointment a.btn {
+    background-color: white;
+    color: #471B0E;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* Appointment End */
+
+/* Footer Start */
+
+.footer{
+    background: #F5F5F5;
+    padding: 15px;
+    text-align: center;
+}
+.footer span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #343434;
+}
+
+/* Footer End */
