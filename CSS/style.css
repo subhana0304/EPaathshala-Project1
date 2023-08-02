@@ -455,3 +455,206 @@
 }
 
 /* Footer End */
+
+
+/* -----------------------Responsive---------------------- */
+
+@media screen and (max-width: 776px){
+
+    /* -------------header start---------- */
+    .header {
+        background: #E8E3D2;
+        padding: 20px 15px 0 15px;
+    }
+    
+    .navbar {
+        display: block;
+    }
+    
+    
+    .menu-text ul {
+        display: block;
+        margin: 10px ;
+    }
+    
+    .menu-text ul li {
+        font-size: 11px;
+        margin: 0 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+    .menu-button {
+        margin-left: 10px;
+    }
+    /* -----------------banner--------- */
+
+    .banner {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 35px;
+    }
+    
+    .left-banner p {
+        margin-bottom: 1rem;
+    }
+    
+    .left-banner h1 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    
+    .left-banner a {
+        text-decoration: none;
+    }
+    
+    .banner-img {
+        width: 200px;
+        height: 250px;
+        margin: 10px auto 0 auto;
+    }
+    
+
+    /* -------------header start---------- */
+
+    /* --------------------About Start---------------- */
+
+    .about {
+        margin: 30px 15px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    
+    .left-about {
+        width: 250px;
+    }
+    .left-about{
+        margin: auto;
+    }
+    .left-about img {
+        width: 100%;
+    }
+    
+    .right-about h1 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+    .right-about{
+        margin-top: 20px;
+    }
+    .right-about p {
+        font-size: 9px;
+    }
+    
+    .right-about ul li {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    
+    .right-about ul li img {
+        width: 12px;
+        margin-right: 5px;
+    }
+
+    /* --------------------About End---------------- */
+
+    /* ---------Service Section Start------------ */
+
+    .service {
+        padding: 30px 15px;
+    }
+    
+    .service h1 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+    
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .card {
+        padding: 10px;
+    }
+
+    /* ---------Service Section End------------ */
+
+
+    /* --------------features Start----------- */
+
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .feature {
+        display: block;
+        border-right: none;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    /* --------------features End----------- */
+
+    /* ----------image section start--------- */
+
+    .image-section {
+        margin: 30px;
+    }
+
+    /* ----------image section end--------- */
+
+    /* ----------Testimony section start--------- */
+
+    .testimony {
+        margin: 30px 0;
+        padding: 20px 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .testimony .right-testimony {
+        padding: 15px;
+    }
+    
+    .testimony .left-testimony {
+        padding: 15px;
+    }
+    
+    .testimony .left-testimony p.bold-text {
+        font-size: 9px;
+    }
+    
+    .testimony .left-testimony p.light-text {
+        font-size: 9px;
+    }
+    
+    .testimony .left-testimony h1{
+        font-size: 22px;
+    }
+    .testimony .left-testimony span{
+        font-size: 10px;
+    } 
+
+    /* ----------Testimony section end--------- */
+
+    /* -------Appointment Start--------- */
+
+    .appointment h3{
+        font-size: 14px;
+    }
+    
+    .appointment a.btn {
+        font-size: 10px;
+    }
+
+    /* -------Appointment End--------- */
+
+    /* ----------footer start----------- */
+
+    .footer{
+        padding: 10px;
+    }
+    .footer span{
+        font-size: 10px;
+    }
+
+    /* ----------footer end----------- */
+    
+}
