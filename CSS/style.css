@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Nunito:wght@200;300;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,32 +9,38 @@
 /* font-family: 'Cormorant Garamond', serif; */
 
 /* Header Start */
-.header{
+.header {
     background: #E8E3D2;
     padding: 20px 50px 0 50px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 100px;
 }
-.logo img{
+
+.logo img {
     width: 100%;
 }
-.menu-text ul{
+
+.menu-text ul {
     list-style: none;
     display: flex;
 }
-.menu-text ul li{
+
+.menu-text ul li {
     font-size: 11px;
     margin: 0 5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-.menu-text ul li a{
+
+.menu-text ul li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
@@ -42,16 +48,18 @@
 
 /* --------------------------- */
 
-.banner{
+.banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     align-items: center;
 }
-.left-banner{
+
+.left-banner {
     text-align: left;
 }
-.left-banner p{
+
+.left-banner p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 13px;
@@ -60,21 +68,25 @@
     margin-bottom: 1.5rem;
 
 }
-.left-banner p img{
+
+.left-banner p img {
     width: 20px;
     margin-right: 5px;
 }
-.left-banner h1{
+
+.left-banner h1 {
     font-weight: 800;
     font-size: 42px;
     color: #343434;
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 1.5rem;
 }
-.left-banner a{
+
+.left-banner a {
     text-decoration: none;
 }
-.left-banner a.btn{
+
+.left-banner a.btn {
     background-color: white;
     color: black;
     padding: 6px 12px;
@@ -82,23 +94,26 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
-.left-banner a.bg-dark{
+
+.left-banner a.bg-dark {
     background-color: #471B0E;
     color: white;
     margin-right: 10px;
 }
 
-.right-banner{
+.right-banner {
     text-align: right;
     display: flex;
     justify-content: right;
 }
-.banner-img{
+
+.banner-img {
     width: 250px;
     height: 300px;
     margin-left: 25px;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     height: 100%;
 }
@@ -107,24 +122,27 @@
 
 /* About Section Start */
 
-.about{
+.about {
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 20px;
 }
-.left-about{
+
+.left-about {
     width: 300px;
 }
-.left-about img{
+
+.left-about img {
     width: 100%;
 }
-.right-about{
+
+.right-about {
     text-align: left;
 }
 
-.right-about p{
+.right-about p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 13px;
@@ -132,32 +150,38 @@
     align-items: center;
     margin-bottom: 1rem;
 }
-.right-about p img{
+
+.right-about p img {
     width: 20px;
     margin-right: 5px;
 }
-.right-about h1{
+
+.right-about h1 {
     font-weight: 800;
     font-size: 36px;
     color: #343434;
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 1.5rem;
 }
-.right-about p{
+
+.right-about p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 11px;
     color: #343434;
     margin-bottom: 1rem;
 }
-.right-about p.light-text{
+
+.right-about p.light-text {
     color: black;
     font-weight: 400;
 }
-.right-about ul{
+
+.right-about ul {
     list-style: none;
 }
-.right-about ul li{
+
+.right-about ul li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 11px;
@@ -166,7 +190,8 @@
     align-items: center;
     margin-bottom: 10px;
 }
-.right-about ul li img{
+
+.right-about ul li img {
     width: 12px;
     margin-right: 5px;
 }
@@ -174,12 +199,13 @@
 /* About Section End */
 
 /* Service Section Start */
-.service{
+.service {
     background: #E8E3D2;
     padding: 50px;
     text-align: center;
 }
-.service p{
+
+.service p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 13px;
@@ -187,100 +213,200 @@
     align-items: center;
     margin-bottom: 1rem;
 }
-.service p img{
+
+.service p img {
     width: 20px;
     margin-right: 5px;
 }
-.right-order{
+
+.right-order {
     transform: rotate(180deg);
     margin-left: 5px;
 }
-.service h1{
+
+.service h1 {
     font-weight: 800;
     font-size: 36px;
     color: #343434;
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 1.5rem;
 }
-.cards{
+
+.cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin-top: 15px;
 }
-.card{
+
+.card {
     padding: 5px;
 }
-.card img{
+
+.card img {
     width: 30px;
 }
-.card img.arrow-img{
+
+.card img.arrow-img {
     width: 25px;
 }
-.card h6{
+
+.card h6 {
     font-weight: 800;
     font-size: 16px;
     color: black;
     font-family: 'Cormorant Garamond', serif;
     margin: 15px 0;
 }
-.card p{
+
+.card p {
     font-size: 9px;
     color: black;
     font-weight: 300;
 }
+
 /* Service Section End */
 
 /* Features Section Start */
-.features{
+.features {
     background: #343434;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 10px;
     margin-top: 5px;
 }
-.feature{
+
+.feature {
     display: flex;
     border-right: 1px solid white;
     justify-content: center;
     align-items: center;
 }
-.last-feature{
+
+.last-feature {
     border: none;
     padding: 3px;
 }
-.feature img{
+
+.feature img {
     width: 25px;
     height: 25px;
 }
-.feature img.down-arrow{
+
+.feature img.down-arrow {
     width: 15px;
     height: 15px;
 }
-.feature .feature-text{
+
+.feature .feature-text {
     margin: 0 5px;
     padding: 5px;
 }
-.feature .feature-text h6{
+
+.feature .feature-text h6 {
     font-size: 11px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: white;
 }
-.feature .feature-text p{
+
+.feature .feature-text p {
     font-size: 10px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     color: white;
 }
+
 /* Features Section End */
 
 /* Image Section Start */
 
-.image-section{
+.image-section {
     margin: 50px;
 }
-.image-section img{
+
+.image-section img {
     width: 100%;
 }
+
 /* Image Section End */
+
+/* Testimony Start */
+
+.testimony {
+    background-image: url('../Images/bgtestimony.png');
+    margin: 35px 0;
+    background-size: cover;
+    display: grid;
+    padding: 35px 0;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.testimony .right-testimony img {
+    width: 100%;
+}
+
+.testimony .left-testimony {
+    padding: 15px 15px 15px 50px;
+}
+
+.testimony .left-testimony p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.testimony .left-testimony p img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.testimony .left-testimony p.bold-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.testimony .left-testimony p.light-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #343434;
+    margin-bottom: 1rem;
+}
+
+.testimony .left-testimony h1{
+    font-weight: 800;
+    font-size: 36px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+}
+.testimony .left-testimony span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #CE9E2B;
+    align-items: center;
+}
+.testimony .left-testimony .dots{
+    display: flex;
+    margin-top: 15px;
+}
+.testimony .left-testimony .dots .dot{
+    width: 4px;
+    height: 4px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid #471B0E;
+}
+.testimony .left-testimony .dots .fill-up{
+    background: #471B0E;
+}
+
+/* Testimony End */
